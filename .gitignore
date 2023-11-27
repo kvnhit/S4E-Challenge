@@ -1,5 +1,43 @@
-# Ignorar a pasta chamada packages
-/packages/
+# Arquivos temporários
+[Oo]bj/
+[Bb]in/
+[Ll]og/
+[Ll]og.txt
 
-# Ignorar o arquivo .sln
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Pasta de pacotes do NuGet
+packages/
+
+# Pasta de publicação do Visual Studio
+_PublishedWebsites/
+
+# Arquivos de configuração
+*.user
+*.suo
+*.cache
+*.bak
+
+# Arquivos de projeto do Visual Studio
+.vscode/
 *.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache de ReSharper
+_ReSharper*/
+
+# Arquivos de análise do Visual Studio Code
+.vscode/
+
+# Diretório node_modules para projetos Node.js
+node_modules/
+
+# Arquivos de dependências e configurações de ambiente
+.env
