@@ -10,6 +10,10 @@ A estrutura do projeto consiste em duas classes: Associado e Empresa, cada uma c
 
 Foi utilizado apenas VB.NET como linguagem de programação, SQL Server como banco de dados e ADO.NET para relacionamento com o banco, visando obedecer as diretrizes de construção da aplicação. Futuramente, outras tecnologias e linguagens podem ser incorporadas para oferecer mais dinamismo e fluidez à aplicação.
 
+## Instruções
+
+Ao realizar o clone do repositório, é necessário inserir a string de conexão no arquivo Web.Config. O arquivo de backup do banco de dados está na pasta do projeto, assim como o arquivo sql caso você queira criar o seu próprio
+
 ##Contato
 
 [LinkedIn](https://www.linkedin.com/in/kevein-bezerra-hitzschky-395284219/)
