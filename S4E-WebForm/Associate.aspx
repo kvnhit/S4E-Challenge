@@ -47,13 +47,25 @@
             </fieldset>
             <hr />
             <div align="center">
-                <div style="text-align: left;">
-                    <asp:Label ID="lblFilter" runat="server" Text="Filtrar por ID: " Font-Bold="True" Font-Size="Medium"></asp:Label>
+                <div style="text-align: left; display: flex; align-items: center;">
+                    <div>
+                        <asp:Label ID="lblFilter" runat="server" Text="Filtrar por ID: " Font-Bold="True" Font-Size="Medium"></asp:Label>
 
-                    <asp:TextBox ID="txtIdFilter" runat="server" Width="100px"></asp:TextBox>
+                        <asp:TextBox ID="txtIdFilter" runat="server" Width="100px"></asp:TextBox>
 
-                    <asp:Button ID="btnIdFilter" runat="server" Text="Pesquisar" Width="85px" />
-
+                        <asp:Button ID="btnIdFilter" runat="server" Text="Pesquisar" Width="85px" />
+                    </div>
+                    <div style="padding: 10px; display: flex; align-items: center; margin-right: 10px;">
+                        <asp:RadioButtonList ID="RadioButtonFilters" GroupName="filterGroup" runat="server" style="margin-right: 10px;" RepeatDirection="Horizontal">
+                                <asp:ListItem style="margin-right: 10px;" Value="name" Selected="True">Nome</asp:ListItem>
+                                <asp:ListItem style="margin-right: 10px;" Value="cpf">CPF</asp:ListItem>
+                                <asp:ListItem style="margin-right: 10px;" Value="birth">Data de Nascimento</asp:ListItem>
+                            </asp:RadioButtonList>
+                        <div style="margin-right: 10px;">
+                            <asp:TextBox ID="txtOtherFilter" runat="server" Width="100px"></asp:TextBox>
+                            <asp:Button ID="btnIdFilter1" runat="server" Text="Pesquisar" Width="85px" />
+                        </div>
+                    </div>
                 </div>
                 <br />
                 <asp:GridView ID="gridViewAssoc" runat="server" Width="80%">

@@ -167,6 +167,33 @@ Partial Public Class About
     Protected WithEvents btnIdFilter As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''Controle RadioButtonFilters.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents RadioButtonFilters As Global.System.Web.UI.WebControls.RadioButtonList
+
+    '''<summary>
+    '''Controle txtOtherFilter.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents txtOtherFilter As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Controle btnIdFilter1.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents btnIdFilter1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Controle gridViewAssoc.
     '''</summary>
     '''<remarks>
