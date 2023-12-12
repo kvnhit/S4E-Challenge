@@ -12,7 +12,6 @@
 
 # Pasta de pacotes do NuGet
 .vs
-packages/
 
 # Pasta de publicação do Visual Studio
 _PublishedWebsites/
