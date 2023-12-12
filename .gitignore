@@ -4,12 +4,6 @@
 [Ll]og/
 [Ll]og.txt
 
-# Arquivos de compilação
-*.dll
-*.exe
-*.pdb
-*.log
-
 # Pasta de pacotes do NuGet
 .vs
 
